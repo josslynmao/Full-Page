@@ -3,8 +3,10 @@ $(document).ready(function(){
     sectionsColor: ['#59DFCE','#F7559F','#59DFCE','#F7559F'],
     //controlArrows: false,
     //verticalCentered: false,
-    scrollSpeed: 1000,
+    scrollSpeed: 700,
     anchors: ['page1','page2','page3','page4'],
-    fixedElements: '#header'
+    fixedElements: '#header',
+    navigation: true,
+    navigationTooltips: ['page1','page2','page3','page4']
   });
 });

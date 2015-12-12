@@ -1,6 +1,7 @@
 #header{
   position: fixed;
-  top:0;
+  top: 20px;
+  left: 20px;
   margin: 0;
   font-family: Helvetica;
   font-size: 40px;
