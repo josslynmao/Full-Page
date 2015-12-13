@@ -1,9 +1,12 @@
-#header{
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  margin: 0;
-  font-family: Helvetica;
-  font-size: 40px;
-  color: white;
+.section{
+  background-color: white;
+}
+
+.section1{
+  background-image: url('img/hero_sunset_large_2x.jpg');
+  background-size: contain;
+}
+
+.section1 h{
+  font-size: 70px;
 }
