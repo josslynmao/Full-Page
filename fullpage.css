@@ -1,11 +1,25 @@
-
-.section{
-  background-image: url('img/hero_sunset_large_2x.jpg');
-  background-size: cover;
+body{
+  font: 16px/1.8 "Microsoft Yahei",verdana;
 }
 
-.section1 p{
+.section{
+  position: relative;
+  background-color: #fff;
+  overflow: hidden; //添加消除上方空白！！！！！！
+  text-align: center;
+}
+
+.section1{
+    background-image: url('img/hero_sunset_large_2x.jpg');
+    background-size: cover;
+}
+
+.section1 h1{
   font-size: 70px;
   color: white;
   opacity: 0.8;
+}
+
+.section1 p{
+  color: white;
 }
