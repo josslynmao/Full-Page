@@ -6,6 +6,7 @@ $(document).ready(function(){
     fixedElements: '#header',
     afterRender: function(){
       $('.section1 img').fadeIn(2000);
+      $('.section1 img').fadeIn(2000);
     },
   });
 });
