@@ -27,3 +27,23 @@ body{
   opacity: 0.6;
   width: 60%;
 }
+
+.section1 a{
+  color: orange;
+}
+
+.section2{
+  background-image: url('img/technology_hero_large_2x.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.section2 h1{
+  font-size: 70px;
+  color: #000;
+  opacity: 0.8;
+}
+
+.section2 a{
+  color: #57B4F1;
+}

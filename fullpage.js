@@ -17,6 +17,7 @@ $(document).ready(function(){
           case 1:
             break;
           case 2:
+          move('.section2 h1').scale(0.5).duration('3s').end();
           break;
           case 3:
           break;
