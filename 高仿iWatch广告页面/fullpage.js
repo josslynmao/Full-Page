@@ -15,6 +15,7 @@ $(document).ready(function(){
     afterLoad: function(anchorLink,index){
         switch (index) {
           case 1:
+
             break;
           case 2:
           move('.section2 h1').scale(0.5).duration('3s').end();
@@ -33,6 +34,8 @@ $(document).ready(function(){
     onLeave: function(index,nextIndex,direction){
         switch (index) {
           case 1:
+          move('.section1 h1').scale(1.5).duration('3s').end();
+          move('.section1 p').set('margin-top','5%').duration('3s').end();
             break;
           case 2:
           break;
