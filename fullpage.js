@@ -6,6 +6,5 @@ $(document).ready(function(){
     navigation: true,
     navigationColor: 'white',
     navigationTooltips: ['page1','page2','page3','page4','page5'],
-
   });
 });

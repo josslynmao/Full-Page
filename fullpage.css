@@ -1,12 +1,11 @@
+
 .section{
-  background-color: white;
-}
-
-.section1{
   background-image: url('img/hero_sunset_large_2x.jpg');
-  background-size: contain;
+  background-size: cover;
 }
 
-.section1 h{
+.section1 p{
   font-size: 70px;
+  color: white;
+  opacity: 0.8;
 }
