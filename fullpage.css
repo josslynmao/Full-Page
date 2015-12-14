@@ -5,7 +5,7 @@ body{
 .section{
   position: relative;
   background-color: #fff;
-  overflow: hidden; //添加消除上方空白！！！！！！
+  overflow: hidden;/*消除上方空白*/
   text-align: center;
 }
 
@@ -22,4 +22,8 @@ body{
 
 .section1 p{
   color: white;
+  margin: 5% auto 0;
+  margin-top: 800px;
+  opacity: 0.6;
+  width: 60%;
 }
